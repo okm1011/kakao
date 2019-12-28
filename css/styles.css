@@ -2,7 +2,11 @@
 @import "status-bar.css";
 @import url("https://fonts.googleapis.com/css?family=Courier+Prime:400,700&display=swap");
 @import "header.css";
+@import "nav.css";
 
+* {
+  box-sizing: border-box;
+}
 body {
   background-color: white;
   color: #020202;
