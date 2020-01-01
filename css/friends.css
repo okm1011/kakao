@@ -1,9 +1,14 @@
-.friend {
+.friends .friends__plus {
+  padding: 20px 0px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #f7f7f7;
+  border-top: 1px solid #f7f7f7;
+}
+.friends .friends__plus {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.friend .friend__avatar {
-  width: 50px;
-  border-radius: 35%;
+.friends__plus .plus__stamp {
+  opacity: 0.6;
 }
