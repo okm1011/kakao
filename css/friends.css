@@ -12,3 +12,9 @@
 .friends__plus .plus__stamp {
   opacity: 0.6;
 }
+.friends__plus .friends__title,
+.friends__list .friends__title {
+  font-size: 14px;
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
