@@ -48,3 +48,9 @@
 .friend__now-listening span {
   opacity: 0.6;
 }
+
+.friend .find__friend__plus {
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 50%;
+}
