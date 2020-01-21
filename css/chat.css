@@ -1,0 +1,33 @@
+.chats__body {
+  padding: 0;
+}
+
+.chat {
+  background-image: url("../images/chatBgc.png");
+  min-height: 100vh;
+}
+
+.chat__write {
+  bottom: 50px;
+  position: fixed;
+  width: 80%;
+  display: flex;
+  padding: 10px 20px;
+  background-color: #fcfcfc;
+  border-radius: 40px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  justify-content: space-between;
+  align-items: center;
+}
+.chat__write i {
+  font-size: 22px;
+}
+.chat__write input {
+  width: 100%;
+  padding: 20px 10px;
+  border: none;
+  font-size: 14px;
+}
