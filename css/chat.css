@@ -2,7 +2,7 @@
   padding: 0;
 }
 
-.chat {
+.chat__chat {
   background-image: url("../images/chatBgc.png");
   min-height: 100vh;
 }
@@ -30,4 +30,20 @@
   padding: 20px 10px;
   border: none;
   font-size: 14px;
+}
+.chat__chat .chat__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid #f7f7f7;
+}
+.chat__list .chat__timestamp {
+  font-size: 14px;
+  background-color: gainsboro;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 30px;
 }

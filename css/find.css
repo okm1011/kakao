@@ -7,6 +7,9 @@
   align-items: center;
   padding: 0px 10px;
 }
+.find .find__header-list i {
+  cursor: not-allowed;
+}
 .find .header-btn {
   display: flex;
   flex-direction: column;
